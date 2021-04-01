@@ -1,0 +1,28 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "main": "server.js",
+    "repository": "https://github.com/itscarlosalmanza/wawe",
+    "author": "wawe",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "start": "node server.js",
+        "server": "nodemon server.js",
+        "client": "npm start --prefix client"
+    },
+    "devDependencies": {
+        "chalk": "^3.0.0",
+        "nodemon": "^2.0.2"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "connect-mongo": "^3.2.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "express-session": "^1.17.0",
+        "mongoose": "^5.9.1",
+        "passport": "^0.4.1",
+        "passport-local": "^1.0.0"
+    }
+}
