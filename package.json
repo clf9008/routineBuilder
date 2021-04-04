@@ -1,0 +1,19 @@
+{
+  "name": "routinebuilder",
+  "version": "1.0.0",
+  "description": "An application that helps users whom struggle with building a daily routine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clf9008/routineBuilder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clf9008/routineBuilder/issues"
+  },
+  "homepage": "https://github.com/clf9008/routineBuilder#readme"
+}

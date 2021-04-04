@@ -2,14 +2,13 @@
     "name": "server",
     "version": "1.0.0",
     "main": "server.js",
-    "repository": "https://github.com/itscarlosalmanza/wawe",
-    "author": "wawe",
+    "repository": "https://github.com/clf9008/routineBuilder.git",
+    "author": "Chase Follett",
     "license": "MIT",
     "private": true,
     "scripts": {
         "start": "node server.js",
-        "server": "nodemon server.js",
-        "client": "npm start --prefix client"
+        "server": "nodemon server.js"
     },
     "devDependencies": {
         "chalk": "^3.0.0",

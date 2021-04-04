@@ -7,7 +7,7 @@ const passport = require("./passport/setup");
 const auth = require("./routes/auth");
 
 const app = express();
-const PORT = 5151;
+const PORT = 5000;
 const MONGO_URI = "mongodb://127.0.0.1:27017/routineBuildr";
 
 mongoose
@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: false }));
 // Express Session
 app.use(
     session({
-        secret: "hello shelly shelly",
+        secret: "secret secrets are quite fun",
         resave: false,
         saveUninitialized: true,
         store: new MongoStore({ mongooseConnection: mongoose.connection })
@@ -35,6 +35,6 @@ app.use(passport.session());
 
 // Routes
 app.use("/api/auth", auth);
-app.get("/", (req, res) => res.send("Welcome"));
+app.get("/", (req, res) => res.send("Now connected to routineBuildr sever"));
 
 app.listen(PORT, () => console.log(`Backend listening on port ${PORT}!`));
