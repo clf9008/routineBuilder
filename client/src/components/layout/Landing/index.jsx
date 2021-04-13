@@ -57,7 +57,14 @@ const Landing = () => {
                     <Col2 xs lg="2">
                         9AM
                     </Col2>
-                    <Col className="justify-content-md-center">Variable width content...............</Col>
+                        <Col className="justify-content-md-center">
+                            <form>
+                                <label>
+                                    Task or Activity
+                            <input type="text" name="name" />
+                            </label>
+                            <input type="submit" value="Submit" />
+                            </form></Col>
                 </FullRow2>
                 
                 <FullRow2>
