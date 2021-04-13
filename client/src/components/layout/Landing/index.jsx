@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Milestones from "../Milestones";
 import { Container } from "react-bootstrap";
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -57,7 +56,7 @@ const Landing = () => {
                     <Col2 xs lg="2">
                         9AM
                     </Col2>
-                        <Col className="justify-content-md-center">
+                        <Col className="justify-content-lg-center">
                             <form>
                                 <label>
                                     Task or Activity
@@ -71,84 +70,168 @@ const Landing = () => {
                     <Col2 xs lg="2">
                          10AM
                 </Col2>
-                    <Col className="justify-content-md-center">Variable width content...............</Col>
+                    <Col className="justify-content-lg-center">
+                            <form>
+                                <label>
+                                    Task or Activity
+                            <input type="text" name="name" />
+                            </label>
+                            <input type="submit" value="Submit" />
+                            </form></Col>
                 </FullRow2>
                 
                 <FullRow2>
                     <Col2 xs lg="2">
                         11AM
                     </Col2>
-                    <Col className="justify-content-md-center">Variable width content...............</Col>
+                    <Col className="justify-content-lg-center">
+                            <form>
+                                <label>
+                                    Task or Activity
+                            <input type="text" name="name" />
+                            </label>
+                            <input type="submit" value="Submit" />
+                            </form></Col>
                 </FullRow2>
                 
                 <FullRow2>
                     <Col2 xs lg="2">
                      12PM
                     </Col2>
-                    <Col className="justify-content-md-center">Variable width content...............</Col>
+                    <Col className="justify-content-lg-center">
+                            <form>
+                                <label>
+                                    Task or Activity
+                            <input type="text" name="name" />
+                            </label>
+                            <input type="submit" value="Submit" />
+                            </form></Col>
                 </FullRow2>
                 
                 <FullRow2>
                     <Col2 xs lg="2">
                         1PM
                     </Col2>
-                    <Col className="justify-content-md-center">Variable width content...............</Col>
+                    <Col className="justify-content-lg-center">
+                            <form>
+                                <label>
+                                    Task or Activity
+                            <input type="text" name="name" />
+                            </label>
+                            <input type="submit" value="Submit" />
+                            </form></Col>
                     </FullRow2>
                 
                 <FullRow2>
                     <Col2 xs lg="2">
                         2PM
                     </Col2>
-                    <Col className="justify-content-md-center">Variable width content...............</Col>
+                    <Col className="justify-content-lg-center">
+                            <form>
+                                <label>
+                                    Task or Activity
+                            <input type="text" name="name" />
+                            </label>
+                            <input type="submit" value="Submit" />
+                            </form></Col>
                     </FullRow2>
                       
                 <FullRow2>
                     <Col2 xs lg="2">
                         3PM
                     </Col2>
-                    <Col className="justify-content-md-center">Variable width content...............</Col>
+                   <Col className="justify-content-lg-center">
+                            <form>
+                                <label>
+                                    Task or Activity
+                            <input type="text" name="name" />
+                            </label>
+                            <input type="submit" value="Submit" />
+                            </form></Col>
                     </FullRow2>
                       
                 <FullRow2>
                     <Col2 xs lg="2">
                        4PM
                     </Col2>
-                    <Col className="justify-content-md-center">Variable width content...............</Col>
+                   <Col className="justify-content-lg-center">
+                            <form>
+                                <label>
+                                    Task or Activity
+                            <input type="text" name="name" />
+                            </label>
+                            <input type="submit" value="Submit" />
+                            </form></Col>
                     </FullRow2>
                     
                 <FullRow2>
                     <Col2 xs lg="2">
                        5PM
                     </Col2>
-                    <Col className="justify-content-md-center">Variable width content...............</Col>
+                    <Col className="justify-content-lg-center">
+                            <form>
+                                <label>
+                                    Task or Activity
+                            <input type="text" name="name" />
+                            </label>
+                            <input type="submit" value="Submit" />
+                            </form></Col>
                     </FullRow2>
                     
                 <FullRow2>
                     <Col2 xs lg="2">
                        6PM
                     </Col2>
-                    <Col className="justify-content-md-center">Variable width content...............</Col>
+                    <Col className="justify-content-lg-center">
+                            <form>
+                                <label>
+                                    Task or Activity
+                            <input type="text" name="name" />
+                            </label>
+                            <input type="submit" value="Submit" />
+                            </form></Col>
                     </FullRow2>
                     
                 <FullRow2>
                     <Col2 xs lg="2">
                        7PM
                     </Col2>
-                    <Col className="justify-content-md-center">Variable width content...............</Col>
+                    <Col className="justify-content-lg-center">
+                            <form>
+                                <label>
+                                    Task or Activity
+                            <input type="text" name="name" />
+                            </label>
+                            <input type="submit" value="Submit" />
+                            </form></Col>
                     </FullRow2>
                     
                 <FullRow2>
                     <Col2 xs lg="2">
                        8PM
                     </Col2>
-                    <Col className="justify-content-md-center">Variable width content...............</Col>
+                    <Col className="justify-content-lg-center">
+                            <form>
+                                <label>
+                                    Task or Activity
+                            <input type="text" name="name" />
+                            </label>
+                            <input type="submit" value="Submit" />
+                            </form></Col>
                     </FullRow2>
                     
                 <FullRow2>
                     <Col2 xs lg="2">
                        9PM
                     </Col2>
-                    <Col className="justify-content-md-center">Variable width content...............</Col>
+                    <Col className="justify-content-lg-center">
+                            <form>
+                                <label>
+                                    Task or Activity
+                            <input type="text" name="name" />
+                            </label>
+                            <input type="submit" value="Submit" />
+                            </form></Col>
                 </FullRow2>
     
             </Container> 

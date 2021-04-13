@@ -81,7 +81,7 @@ const SignUpLoginForm = () => {
                     <Col xs="10" sm="11">
                         <Form.Label>
                             <MutedSpan>
-                                I hereby confirm that the referral app is allowed to send me emails, up until I
+                                I hereby confirm that the routineBuildr is allowed to send me emails, up until I
                                 unsuscribe
                             </MutedSpan>
                         </Form.Label>
